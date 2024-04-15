@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(47, 88%, 66%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    flex-direction: column;
+}
+
+.container {
+    
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    margin-top: 100px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    padding-left: 50px;
+}
+
+.ilustracao {
+       border-radius: 2%;
+       margin-top: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+}
+
+.tipo {
+    
+    background-color: hsl(47, 88%, 66%);
+    height: 18px;
+    width: 90px;
+    font-weight: bold;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10%;   
+}
+
+.data {
+    font-size: 13px;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.titulo:hover {
+   color: hsl(47, 88%, 66%);
+   cursor: pointer;
+}
+
+.texto {
+    font-size: 15px;
+    margin-right: 20%;
+    color: hsl(0, 0%, 50%);
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.nome {
+    flex: 1;
+}
+
+.rodape {
+    font-size: small;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
